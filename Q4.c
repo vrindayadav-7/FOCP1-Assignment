@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Function to swap using a temporary variable
 void swap_temp(int a, int b) {
    int temp;
     
@@ -13,8 +12,6 @@ void swap_temp(int a, int b) {
 
     printf("After  Swap: a = %d, b = %d\n", a, b);
 }
-
-// Function to swap using arithmetic operations
 void swap_arithmetic(int a, int b) {
   
     printf("\n[2] Using Arithmetic Operations (+, -):\n");
@@ -27,7 +24,6 @@ void swap_arithmetic(int a, int b) {
     printf("After  Swap: a = %d, b = %d\n", a, b);
 }
 
-// Function to swap using bitwise XOR
 void swap_xor(int a, int b) {
    
     printf("\n[3] Using Bitwise XOR:\n");
@@ -39,8 +35,6 @@ void swap_xor(int a, int b) {
 
     printf("After  Swap: a = %d, b = %d\n", a, b);
 }
-
-// Function to swap using pointers
 void swap_pointer(int *a, int *b) {
  
     printf("\n[4] Using Pointers:\n");
@@ -62,7 +56,7 @@ int main() {
     swap_temp(x, y);
     swap_arithmetic(x, y);
     swap_xor(x, y);
-    swap_pointer(&x, &y);  // pointer method modifies actual values
+    swap_pointer(&x, &y);  
 
     return 0;
 }
