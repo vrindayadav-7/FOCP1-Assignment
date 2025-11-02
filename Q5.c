@@ -3,11 +3,9 @@
 int main(){
     float x, y;
 
-    // Input coordinates
     printf("Enter the coordinates (x y): ");
     scanf("%f %f", &x, &y);
 
-    // Conditional logic to determine position
     if (x > 0 && y > 0)
         printf("The point (%.2f, %.2f) lies in the First Quadrant.\n", x, y);
     else if (x < 0 && y > 0)
