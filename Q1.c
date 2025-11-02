@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include <math.h>   // For pow() function
 
+#include <math.h>   // For pow() function
 int main() {
+   
     int num, originalNum, remainder, n = 0;
     double result = 0.0;
 
@@ -29,6 +30,7 @@ int main() {
     // Step 3: Check if sum equals original number
     if ((int)result == num)
         printf("%d is an Armstrong number.\n", num);
+   
     else
         printf("%d is not an Armstrong number.\n", num);
 
