@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int subtract(int a, int b) {
     while (b != 0) 
         unsigned borrow = (~a) & b;
