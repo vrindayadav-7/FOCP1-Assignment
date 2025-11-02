@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
   
-    int n = 5; // number of rows
+    int n = 5; 
     int i, j, space;
 
     for (i = 1; i <= n; i++) {
