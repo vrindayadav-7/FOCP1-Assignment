@@ -1,16 +1,12 @@
 #include <stdio.h>
 
-// Function to subtract two integers using bitwise operations
+
 int subtract(int a, int b) {
-    // Use bitwise logic until no borrow is left
-    while (b != 0) {
-        // Borrow is common set bits of (~a) and b
+    while (b != 0) 
         unsigned borrow = (~a) & b;
 
-        // Perform subtraction of bits where at least one of the bits is not set
         a = a ^ b;
 
-        // Borrow is shifted by one to subtract from the next higher bit
         b = borrow << 1;
     }
     return a;
