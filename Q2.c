@@ -24,12 +24,10 @@ int main() {
 
     printf("Enter two integers: ");
     scanf("%d %d", &num1, &num2);
-
-    // Using recursive method
+ 
     int hcf_rec = findHCF_recursive(num1, num2);
     printf("\nHCF (using recursion) of %d and %d = %d\n", num1, num2, hcf_rec);
 
-    // Using iterative method
     int hcf_itr = findHCF_iterative(num1, num2);
     printf("HCF (using iteration) of %d and %d = %d\n", num1, num2, hcf_itr);
 
