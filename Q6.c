@@ -2,7 +2,7 @@
 
 #include <math.h>
 
-// Function to convert Binary → Decimal
+// Binary → Decimal
 int binaryToDecimal(long long binary) {
     int decimal = 0, i = 0, remainder;
 
@@ -15,7 +15,7 @@ int binaryToDecimal(long long binary) {
     return decimal;
 }
 
-// Function to convert Decimal → Binary
+// Decimal → Binary
 long long decimalToBinary(int decimal) {
     long long binary = 0;
     int remainder, i = 1;
