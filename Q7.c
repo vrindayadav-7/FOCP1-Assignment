@@ -5,7 +5,6 @@ int main() {
     int i, j, space;
 
     for (i = 1; i <= n; i++) {
-        // Left binary sequence
         for (j = 1; j <= i; j++) {
             printf("%d", j % 2);   
         }
@@ -18,7 +17,6 @@ int main() {
             printf(" ");
         }
 
-        // Right binary sequence
         for (j = 1; j <= i; j++) {
             printf("%d", j % 2);
         }
